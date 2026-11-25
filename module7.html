@@ -10,31 +10,83 @@
 <body>
     
     <form>
+       <fieldset> 
+        <legend>Personal info</legend>
         <label for="FirstName">FirstName:</label>
         <br>
-        <input type="text" name="FirstName" id="FirstName">
+        <input type="text" name="FirstName" id="FirstName" value="Anesa" readonly>
 <br>
          <label for="LastName">LastName:</label>
         <br>
-        <input type="text" name="LastName" id="LastName">
+        <input type="text" name="LastName" id="LastName" disabled >
 <br>
          <label for="Email">Email:</label>
         <br>
-        <input type="email" name="Email" id="Email">
+        <input type="email" name="Email" id="Email" size="40" placeholder="anesa" required>
 <br>
          <label for="Password">Password:</label>
         <br>
         <input type="password" name="Password" id="Password">
         <br>
+
+
         <label for="gender">Gender:</label>
         <br>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label> <br>
          <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label> <br>
+<br>
+<label>Hobbies</label> <br>
+
+<input type="checkbox" id="gaming" name="gaming" value="Gaming">
+<label for="gaming">Gaming</label> <br>
+<input type="checkbox" id="football" name="football" value="Football">
+<label for="football">Football</label> <br>
+
+<br><br>
+
+<p>Your pet:</p>
+<select name="pet" id="pet">
+<option value="Dog">Dog</option>
+<option value="Cat">Cat</option>
+<option value="Parrot">Parrot</option>
+</select>
+
+<br><br>
+
+<textarea name="message" rows="10" cols="50" maxlength="5"></textarea>
+
+<br><br>
+
+<input type="submit" name="submit" id="submit">
+
+</fieldset>
 
     </form>
+<br>
+<br>
 
+
+<article>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, porro.</p>
+</article>
+<hr>
+<details>
+    <summary>Digital School</summary>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, eaque?</p>
+</details>
+
+<figure>
+    <img src="fotoja1.webp" alt="" width="200" height="200">
+    <figcaption>Figure 1</figcaption>
+</figure>
+
+<section>
+    <h2>HELLOOO</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, magnam esse sint distinctio quidem molestias rerum voluptate quae iure nobis!</p>
+</section>
 
 </body>
 </html>
